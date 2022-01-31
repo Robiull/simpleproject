@@ -3,7 +3,7 @@
 {% block body %}
 <h1>This is contact</h1>
 <div class='container'>
-    <form method="post">
+    <form method="POST">
         {% csrf_token %}
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -17,7 +17,7 @@
         <label for="exampleFormControlTextarea1" class="form-label">Detaile</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name='savecontent'></textarea>
       </div>
-      <button type="submit">Submit</button>
+      <button type="Submit">Submit</button>
     </form>
     
 </div>
